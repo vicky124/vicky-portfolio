@@ -58,6 +58,7 @@ export type Experience = {
   location: string
   role: string
   period: string
+  metrics: string[]
   projects: {
     name: string
     client?: string
@@ -75,6 +76,7 @@ export const experience: Experience[] = [
     location: 'Pune',
     role: 'Senior Associate / Technical Lead',
     period: 'Apr 2022 - Present',
+    metrics: ['1M+ requests/day @ p95 < 200ms', '~40% duplicate code eliminated', '35% faster page loads', '5+ engineers mentored'],
     projects: [
       {
         name: 'PRISM - Service Job Lifecycle Platform',
@@ -112,6 +114,7 @@ export const experience: Experience[] = [
     location: 'Pune',
     role: 'Software Developer',
     period: 'Jun 2020 - Mar 2022',
+    metrics: ['90%+ test coverage', 'Scaled for 1,000s of seasonal filers'],
     projects: [
       {
         name: 'TaxAct Assisted Technology',
@@ -131,6 +134,7 @@ export const experience: Experience[] = [
     location: 'Hinjewadi, Pune',
     role: 'Associate Software Developer',
     period: 'Jan 2019 - May 2020',
+    metrics: ['Web + React Native cross-platform delivery', 'Real-time coordination across 3 user types'],
     projects: [
       {
         name: 'Experience America - Educational Tourism Platform',
@@ -161,6 +165,7 @@ export const experience: Experience[] = [
     location: 'Pune',
     role: 'Web Developer',
     period: 'Feb 2017 - Dec 2018',
+    metrics: ['Pixel-perfect, cross-browser delivery', '5+ modules standardized'],
     projects: [
       {
         name: 'Client Web Applications',
