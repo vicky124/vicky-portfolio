@@ -12,6 +12,8 @@ A responsive, single-page developer portfolio built with **React 19**, **TypeScr
 
 ## Getting started
 
+Requires **Node.js 20+** (matches the version used by the GitHub Actions deploy workflow).
+
 ```bash
 npm install
 npm run dev
