@@ -5,7 +5,8 @@ import { profile } from '../data/resume'
 const links = [
   { href: '#about', label: 'About' },
   { href: '#skills', label: 'Skills' },
-  { href: '#experience', label: 'Experience' },
+  { href: '#journey', label: 'Journey' },
+  { href: '#projects', label: 'Projects' },
   { href: '#certifications', label: 'Certifications' },
   { href: '#contact', label: 'Contact' },
 ]
@@ -31,7 +32,13 @@ export default function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
-        <a href="#top" className="font-mono text-sm font-semibold text-slate-900 dark:text-white">
+        <a href="#top" className="flex items-center gap-2.5 font-mono text-sm font-semibold text-slate-900 dark:text-white">
+          <img
+            src="avatar.svg"
+            alt=""
+            aria-hidden
+            className="h-8 w-8 rounded-full ring-2 ring-white dark:ring-ink-900"
+          />
           {profile.name.split(' ').map((n) => n[0]).join('')}
           <span className="text-accent-600 dark:text-accent-400">.</span>
         </a>

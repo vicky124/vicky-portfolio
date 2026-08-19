@@ -173,6 +173,93 @@ export const experience: Experience[] = [
   },
 ]
 
+export type Project = {
+  name: string
+  company: string
+  client?: string
+  role?: string
+  team?: string
+  period: string
+  stack: string[]
+  summary: string
+  highlights: string[]
+}
+
+export const projects: Project[] = [
+  {
+    name: 'PRISM',
+    company: 'Synechron Technologies',
+    client: 'Asurion',
+    role: 'Technical Lead',
+    team: '8',
+    period: 'Jan 2023 – Present',
+    stack: ['Node.js', 'TypeScript', 'React.js', 'GraphQL', 'AWS Lambda', 'PostgreSQL', 'Turborepo', 'CI/CD'],
+    summary:
+      'Enterprise platform managing the complete repair/replacement job lifecycle for mobility devices at scale — job creation, kitting, technician assignment, delivery, repair, and inventory.',
+    highlights: [
+      'Architected end-to-end AWS infrastructure (Lambda, API Gateway, PostgreSQL, Cognito) and the CI/CD pipeline strategy for reliable, repeatable deployments.',
+      'Designed shared component/library packages in a Turborepo monorepo adopted by 3+ teams, eliminating ~40% of duplicated code.',
+      'Built and optimized GraphQL/Node.js APIs handling 1M+ requests/day with p95 latency under 200ms.',
+      'Drove team-wide adoption of Copilot, Claude, and Cursor, cutting manual review effort by an estimated 20-25%.',
+    ],
+  },
+  {
+    name: 'FSL — Kitting & Parts Management',
+    company: 'Synechron Technologies',
+    client: 'Asurion',
+    role: 'Senior Developer',
+    team: '3',
+    period: 'Apr 2022 – Dec 2022',
+    stack: ['React.js', 'TypeScript', 'Styled Components', 'Node.js', 'AWS Lambda', 'MySQL'],
+    summary:
+      'Kitting workflow used by multiple enterprise clients to manage appliances and parts, with leadership dashboards and real-time stock monitoring.',
+    highlights: [
+      'Architected the React.js frontend, improving page load performance by approximately 35% through optimized rendering and state management.',
+      'Built and deployed serverless APIs on AWS Lambda powering dashboards used by 15+ stakeholders, cutting report generation time from minutes to seconds.',
+      'Delivered end-to-end parts kitting, returns processing, and technician part tracking, reducing manual reconciliation effort by approximately 50%.',
+    ],
+  },
+  {
+    name: 'TaxAct Assisted Technology',
+    company: 'Cybage Software',
+    client: 'TaxAct',
+    team: '6',
+    period: 'Jun 2021 – Mar 2022',
+    stack: ['React.js', 'Jest', 'REST APIs'],
+    summary: 'Booking module for expert-assisted US tax filing, supporting thousands of seasonal filers during peak tax season.',
+    highlights: [
+      'Built real-time staff availability checks and call scheduling.',
+      'Built responsive UI components and integrated REST APIs, maintaining 90%+ code coverage with Jest during high-traffic filing periods.',
+    ],
+  },
+  {
+    name: 'Experience America',
+    company: 'MJB Technology Solutions',
+    client: 'Experience America US',
+    team: '10',
+    period: 'Apr 2019 – May 2020',
+    stack: ['React.js', 'React Native', 'Ionic Cordova'],
+    summary: 'Educational tourism platform: web app plus React Native hybrid mobile apps to manage tours, events, geofences, and multi-role user assignments.',
+    highlights: [
+      'Led direct client interaction and Scrum planning as the primary technical point of contact.',
+      'Implemented background location tracking and geofencing alongside group chat with location and document sharing across 3 user types.',
+    ],
+  },
+  {
+    name: 'Monga StrayField',
+    company: 'MJB Technology Solutions',
+    client: 'Experience America US',
+    team: '4',
+    period: 'Jan 2019 – Mar 2019',
+    stack: ['Angular', 'REST APIs'],
+    summary: 'Real-time IoT monitoring dashboard visualizing machine parameters with push notifications and alerting.',
+    highlights: [
+      'Gave operators immediate visibility into equipment status through live dashboards.',
+      'Developed REST APIs for web-to-cloud communication, enabling reliable data sync between field devices and the dashboard.',
+    ],
+  },
+]
+
 export const certifications = [
   { name: 'AWS Certified Solutions Architect – Professional', issuer: 'Amazon Web Services' },
   { name: 'Claude Certified Architect – Foundations', issuer: 'Anthropic' },

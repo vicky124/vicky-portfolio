@@ -1,9 +1,9 @@
 import { experience } from '../data/resume'
 
-export default function Experience() {
+export default function Journey() {
   return (
-    <section id="experience" className="mx-auto max-w-6xl px-5 py-20 sm:px-8">
-      <p className="section-eyebrow">Experience</p>
+    <section id="journey" className="mx-auto max-w-6xl px-5 py-20 sm:px-8">
+      <p className="section-eyebrow">Journey</p>
       <h2 className="section-heading mt-2 max-w-2xl">Where I've built and led.</h2>
 
       <div className="relative mt-12 space-y-12 border-l border-slate-200 pl-8 dark:border-ink-600 sm:pl-10">
