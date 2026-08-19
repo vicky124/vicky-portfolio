@@ -8,7 +8,7 @@ export const profile = {
   linkedin: 'https://linkedin.com/in/vicky-jadhav',
   github: 'https://github.com/jadhav-vicky',
   summary:
-    "Senior Full-Stack Developer / Technical Lead with 9+ years of experience architecting, building, and scaling enterprise web and mobile applications using React.js, Node.js, TypeScript, GraphQL, and AWS. Leading offshore engineering teams through the full software development lifecycle, delivering serverless and microservices platforms for global enterprise clients. AWS Certified Solutions Architect – Professional with deep expertise in API design, cloud architecture, performance optimization, and CI/CD automation. Early adopter of AI-assisted development tools.",
+    "Senior Full-Stack Developer / Technical Lead with 9+ years of experience architecting, building, and scaling enterprise web and mobile applications using React.js, Node.js, TypeScript, GraphQL, and AWS. Leading offshore engineering teams through the full software development lifecycle, delivering serverless and microservices platforms for global enterprise clients. AWS Certified Solutions Architect - Professional with deep expertise in API design, cloud architecture, performance optimization, and CI/CD automation. Early adopter of AI-assisted development tools.",
 }
 
 export const stats = [
@@ -74,30 +74,30 @@ export const experience: Experience[] = [
     company: 'Synechron Technologies Pvt. Ltd.',
     location: 'Pune',
     role: 'Senior Associate / Technical Lead',
-    period: 'Apr 2022 – Present',
+    period: 'Apr 2022 - Present',
     projects: [
       {
-        name: 'PRISM — Service Job Lifecycle Platform',
+        name: 'PRISM - Service Job Lifecycle Platform',
         client: 'Asurion',
         role: 'Technical Lead',
         team: '8',
-        period: 'Jan 2023 – Present',
+        period: 'Jan 2023 - Present',
         stack: 'Node.js, TypeScript, React.js, GraphQL, AWS Lambda, PostgreSQL, Turborepo, PNPM, JFrog, CI/CD',
         bullets: [
           'Spearheaded offshore architecture, development, and deployment of an enterprise platform managing the complete repair/replacement job lifecycle for mobility devices at scale, serving as the primary technical owner across the delivery pipeline.',
           'Architected end-to-end AWS infrastructure (Lambda, API Gateway, PostgreSQL, Cognito) and defined the CI/CD pipeline strategy, enabling reliable, repeatable deployments across environments.',
           'Designed shared component and library packages within a Turborepo monorepo adopted by 3+ engineering teams, eliminating approximately 40% of duplicated code and standardizing development patterns org-wide.',
           'Built and optimized GraphQL/Node.js APIs handling 1M+ requests/day with p95 latency under 200ms, powering job creation, kitting, technician assignment, delivery, repair, and inventory modules.',
-          "Drove team-wide adoption of Copilot, Claude, and Cursor's AI capabilities to streamline engineering workflow — automating unit test generation, accelerating code review with AI-assisted diff analysis, and generating/maintaining technical documentation — reducing manual review effort by an estimated 20-25%.",
+          "Drove team-wide adoption of Copilot, Claude, and Cursor's AI capabilities to streamline engineering workflow - automating unit test generation, accelerating code review with AI-assisted diff analysis, and generating/maintaining technical documentation - reducing manual review effort by an estimated 20-25%.",
           'Defined coding standards, PR review processes, and release cadence; mentored 5+ junior engineers across the full delivery lifecycle.',
         ],
       },
       {
-        name: 'FSL — Kitting & Parts Management',
+        name: 'FSL - Kitting & Parts Management',
         client: 'Asurion',
         role: 'Senior Developer',
         team: '3',
-        period: 'Apr 2022 – Dec 2022',
+        period: 'Apr 2022 - Dec 2022',
         stack: 'React.js, TypeScript, Styled Components, Node.js, AWS Lambda, MySQL',
         bullets: [
           'Architected the React.js frontend for a kitting workflow used by multiple enterprise clients to manage appliances and parts, improving page load performance by approximately 35% through optimized rendering and state management.',
@@ -111,13 +111,13 @@ export const experience: Experience[] = [
     company: 'Cybage Software Pvt. Ltd.',
     location: 'Pune',
     role: 'Software Developer',
-    period: 'Jun 2020 – Mar 2022',
+    period: 'Jun 2020 - Mar 2022',
     projects: [
       {
         name: 'TaxAct Assisted Technology',
         client: 'TaxAct',
         team: '6',
-        period: 'Jun 2021 – Mar 2022',
+        period: 'Jun 2021 - Mar 2022',
         stack: 'React.js',
         bullets: [
           'Developed a booking module for expert-assisted US tax filing, including real-time staff availability checks and call scheduling, supporting thousands of seasonal filers during peak tax season.',
@@ -130,13 +130,13 @@ export const experience: Experience[] = [
     company: 'MJB Technology Solutions',
     location: 'Hinjewadi, Pune',
     role: 'Associate Software Developer',
-    period: 'Jan 2019 – May 2020',
+    period: 'Jan 2019 - May 2020',
     projects: [
       {
-        name: 'Experience America — Educational Tourism Platform',
+        name: 'Experience America - Educational Tourism Platform',
         client: 'Experience America US',
         team: '10',
-        period: 'Apr 2019 – May 2020',
+        period: 'Apr 2019 - May 2020',
         stack: 'React.js, React Native',
         bullets: [
           'Built a React web app and React Native hybrid mobile apps to manage tours, events, geofences, and multi-role user assignments; led direct client interaction and Scrum planning as the primary technical point of contact.',
@@ -144,10 +144,10 @@ export const experience: Experience[] = [
         ],
       },
       {
-        name: 'Monga StrayField — IoT Monitoring Dashboard',
+        name: 'Monga StrayField - IoT Monitoring Dashboard',
         client: 'Experience America US',
         team: '4',
-        period: 'Jan 2019 – Mar 2019',
+        period: 'Jan 2019 - Mar 2019',
         stack: 'Angular',
         bullets: [
           'Built a real-time Angular dashboard visualizing machine parameters with push notifications and alerting, giving operators immediate visibility into equipment status.',
@@ -160,7 +160,7 @@ export const experience: Experience[] = [
     company: 'WebWorx India',
     location: 'Pune',
     role: 'Web Developer',
-    period: 'Feb 2017 – Dec 2018',
+    period: 'Feb 2017 - Dec 2018',
     projects: [
       {
         name: 'Client Web Applications',
@@ -192,10 +192,10 @@ export const projects: Project[] = [
     client: 'Asurion',
     role: 'Technical Lead',
     team: '8',
-    period: 'Jan 2023 – Present',
+    period: 'Jan 2023 - Present',
     stack: ['Node.js', 'TypeScript', 'React.js', 'GraphQL', 'AWS Lambda', 'PostgreSQL', 'Turborepo', 'CI/CD'],
     summary:
-      'Enterprise platform managing the complete repair/replacement job lifecycle for mobility devices at scale — job creation, kitting, technician assignment, delivery, repair, and inventory.',
+      'Enterprise platform managing the complete repair/replacement job lifecycle for mobility devices at scale - job creation, kitting, technician assignment, delivery, repair, and inventory.',
     highlights: [
       'Architected end-to-end AWS infrastructure (Lambda, API Gateway, PostgreSQL, Cognito) and the CI/CD pipeline strategy for reliable, repeatable deployments.',
       'Designed shared component/library packages in a Turborepo monorepo adopted by 3+ teams, eliminating ~40% of duplicated code.',
@@ -204,12 +204,12 @@ export const projects: Project[] = [
     ],
   },
   {
-    name: 'FSL — Kitting & Parts Management',
+    name: 'FSL - Kitting & Parts Management',
     company: 'Synechron Technologies',
     client: 'Asurion',
     role: 'Senior Developer',
     team: '3',
-    period: 'Apr 2022 – Dec 2022',
+    period: 'Apr 2022 - Dec 2022',
     stack: ['React.js', 'TypeScript', 'Styled Components', 'Node.js', 'AWS Lambda', 'MySQL'],
     summary:
       'Kitting workflow used by multiple enterprise clients to manage appliances and parts, with leadership dashboards and real-time stock monitoring.',
@@ -224,7 +224,7 @@ export const projects: Project[] = [
     company: 'Cybage Software',
     client: 'TaxAct',
     team: '6',
-    period: 'Jun 2021 – Mar 2022',
+    period: 'Jun 2021 - Mar 2022',
     stack: ['React.js', 'Jest', 'REST APIs'],
     summary: 'Booking module for expert-assisted US tax filing, supporting thousands of seasonal filers during peak tax season.',
     highlights: [
@@ -237,7 +237,7 @@ export const projects: Project[] = [
     company: 'MJB Technology Solutions',
     client: 'Experience America US',
     team: '10',
-    period: 'Apr 2019 – May 2020',
+    period: 'Apr 2019 - May 2020',
     stack: ['React.js', 'React Native', 'Ionic Cordova'],
     summary: 'Educational tourism platform: web app plus React Native hybrid mobile apps to manage tours, events, geofences, and multi-role user assignments.',
     highlights: [
@@ -250,7 +250,7 @@ export const projects: Project[] = [
     company: 'MJB Technology Solutions',
     client: 'Experience America US',
     team: '4',
-    period: 'Jan 2019 – Mar 2019',
+    period: 'Jan 2019 - Mar 2019',
     stack: ['Angular', 'REST APIs'],
     summary: 'Real-time IoT monitoring dashboard visualizing machine parameters with push notifications and alerting.',
     highlights: [
@@ -261,8 +261,8 @@ export const projects: Project[] = [
 ]
 
 export const certifications = [
-  { name: 'AWS Certified Solutions Architect – Professional', issuer: 'Amazon Web Services' },
-  { name: 'Claude Certified Architect – Foundations', issuer: 'Anthropic' },
+  { name: 'AWS Certified Solutions Architect - Professional', issuer: 'Amazon Web Services' },
+  { name: 'Claude Certified Architect - Foundations', issuer: 'Anthropic' },
 ]
 
 export const education = [
