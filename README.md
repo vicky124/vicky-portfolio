@@ -1,4 +1,4 @@
-# Vicky Jadhav — Portfolio
+# Vicky Jadhav - Portfolio
 
 A responsive, single-page developer portfolio built with **React 19**, **TypeScript**, **Vite**, and **Tailwind CSS v4**. Content (experience, skills, certifications) is data-driven from [`src/data/resume.ts`](src/data/resume.ts), so updating the site is just editing that one file.
 
@@ -7,7 +7,7 @@ A responsive, single-page developer portfolio built with **React 19**, **TypeScr
 - Fully responsive layout (mobile → desktop) with a collapsible mobile nav
 - Light/dark theme toggle with `localStorage` persistence and no flash-of-wrong-theme on load
 - Sections: Hero, About, Skills, Experience timeline, Certifications & Education, Contact
-- Zero backend — static build, deployable anywhere
+- Zero backend - static build, deployable anywhere
 - GitHub Actions workflow that builds and deploys to **GitHub Pages** on every push to `main`
 
 ## Getting started
@@ -41,7 +41,7 @@ This repo ships with [`.github/workflows/deploy.yml`](.github/workflows/deploy.y
    https://<your-username>.github.io/<repo-name>/
    ```
 
-`vite.config.ts` uses a relative `base: './'`, so the build works out of the box under any repository name or subpath — no config changes needed regardless of what you name the repo.
+`vite.config.ts` uses a relative `base: './'`, so the build works out of the box under any repository name or subpath - no config changes needed regardless of what you name the repo.
 
 ### Pushing this project to GitHub
 
@@ -63,7 +63,7 @@ This runs `npm run build` and pushes `dist/` to a `gh-pages` branch using the `g
 
 ## Updating content
 
-All resume content lives in [`src/data/resume.ts`](src/data/resume.ts) — profile info, stats, skill groups, work experience, certifications, and education. Edit that file and the whole site updates.
+All resume content lives in [`src/data/resume.ts`](src/data/resume.ts) - profile info, stats, skill groups, work experience, certifications, and education. Edit that file and the whole site updates.
 
 ## Tech stack
 

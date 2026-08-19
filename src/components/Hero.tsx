@@ -19,7 +19,7 @@ export default function Hero() {
             <div className="animate-fade-up chip mb-6">Available for select technical leadership roles</div>
 
             <h1 className="max-w-3xl text-4xl font-bold leading-tight tracking-tight text-slate-900 dark:text-white sm:text-6xl">
-              Hi, I'm <span className="text-accent-600 dark:text-accent-400">{profile.name}</span> — I build and
+              Hi, I'm <span className="text-accent-600 dark:text-accent-400">{profile.name}</span> - I build and
               lead enterprise-scale web platforms.
             </h1>
 
